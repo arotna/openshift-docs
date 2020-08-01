@@ -1,0 +1,61 @@
+Name: Storage
+Dir: storage
+Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+Topics:
+- Name: Understanding persistent storage
+  File: understanding-persistent-storage
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+- Name: Configuring persistent storage
+  Dir: persistent_storage
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: Persistent storage using Amazon EFS
+    File: persistent-storage-efs
+  - Name: Persistent storage using AWS Elastic Block Store
+    File: persistent-storage-aws
+  - Name: Persistent storage using Azure Disk
+    File: persistent-storage-azure
+  - Name: Persistent storage using Azure File
+    File: persistent-storage-azure-file
+  - Name: Persistent storage using Cinder
+    File: persistent-storage-cinder
+  - Name: Persistent storage using Fibre Channel
+    File: persistent-storage-fibre
+  - Name: Persistent storage using FlexVolume
+    File: persistent-storage-flexvolume
+  - Name: Persistent storage using GCE Persistent Disk
+    File: persistent-storage-gce
+  - Name: Persistent storage using hostPath
+    File: persistent-storage-hostpath
+  - Name: Persistent Storage using iSCSI
+    File: persistent-storage-iscsi
+  - Name: Persistent storage using local volumes
+    File: persistent-storage-local
+  - Name: Persistent storage using NFS
+    File: persistent-storage-nfs
+  - Name: Persistent storage using Red Hat OpenShift Container Storage
+    File: persistent-storage-ocs
+  - Name: Persistent storage using VMware vSphere
+    File: persistent-storage-vsphere
+- Name: Using Container Storage Interface (CSI)
+  Dir: container_storage_interface
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: Configuring CSI volumes
+    File: persistent-storage-csi
+  - Name: CSI inline ephemeral volumes
+    File: ephemeral-storage-csi-inline
+  - Name: CSI volume snapshots
+    File: persistent-storage-csi-snapshots
+  - Name: CSI volume cloning
+    File: persistent-storage-csi-cloning
+  - Name: AWS Elastic Block Store CSI Driver Operator
+    File: persistent-storage-csi-ebs
+  - Name: OpenStack Manila CSI Driver Operator
+    File: persistent-storage-csi-manila
+- Name: Expanding persistent volumes
+  File: expanding-persistent-volumes
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+- Name: Dynamic provisioning
+  File: dynamic-provisioning
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin

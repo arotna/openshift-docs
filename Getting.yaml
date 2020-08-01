@@ -1,0 +1,12 @@
+Name: Getting started
+Dir: getting_started
+Distros: openshift-dedicated
+Topics:
+- Name: Accessing your services
+  File: accessing-your-services
+- Name: Scaling your cluster
+  File: scaling-your-cluster
+- Name: Deleting your cluster
+  File: deleting-your-cluster
+- Name: Networking
+  File: dedicated-networking

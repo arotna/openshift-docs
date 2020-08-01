@@ -1,0 +1,68 @@
+Name: Applications
+Dir: applications
+Distros: openshift-*
+Topics:
+- Name: Projects
+  Dir: projects
+  Topics:
+  - Name: Working with projects
+    File: working-with-projects
+  - Name: Creating a project as another user
+    File: creating-project-other-user
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring project creation
+    File: configuring-project-creation
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name:  Application life cycle management
+  Dir: application_life_cycle_management
+  Topics:
+  - Name: Creating applications using the Developer perspective
+    File: odc-creating-applications-using-developer-perspective
+  - Name: Creating applications from installed Operators
+    File: creating-apps-from-installed-operators
+  - Name: Creating applications using the CLI
+    File: creating-applications-using-cli
+  - Name: Viewing application composition using the Topology view
+    File: odc-viewing-application-composition-using-topology-view
+  - Name: Editing applications
+    File: odc-editing-applications
+  - Name: Working with Helm charts using the Developer perspective
+    File: odc-working-with-helm-charts-using-developer-perspective
+  - Name: Deleting applications
+    File: odc-deleting-applications
+- Name: Deployments
+  Dir: deployments
+  Topics:
+  - Name: Understanding Deployments and DeploymentConfigs
+    File: what-deployments-are
+  - Name: Managing deployment processes
+    File: managing-deployment-processes
+  - Name: Using DeploymentConfig strategies
+    File: deployment-strategies
+  - Name: Using route-based deployment strategies
+    File: route-based-deployment-strategies
+- Name: Quotas
+  Dir: quotas
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  Topics:
+  - Name: Resource quotas per project
+    File: quotas-setting-per-project
+  - Name: Resource quotas across multiple projects
+    File: quotas-setting-across-multiple-projects
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Monitoring project and application metrics using the Developer perspective
+  File: odc-monitoring-project-and-application-metrics-using-developer-perspective
+- Name: Monitoring application health
+  File: application-health
+- Name: Working with quotas
+  File: working-with-quotas
+  Distros: openshift-online,openshift-dedicated
+- Name: Idling applications
+  File: idling-applications
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: Pruning objects to reclaim resources
+  File: pruning-objects
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: Using the Red Hat Marketplace
+  File: red-hat-marketplace
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale

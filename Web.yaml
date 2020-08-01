@@ -1,0 +1,20 @@
+Name: Web console
+Dir: web_console
+Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+Topics:
+- Name: Accessing the web console
+  File: web-console
+- Name: Viewing cluster information
+  File: using-dashboard-to-get-cluster-information
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Configuring the web console
+  File: configuring-web-console
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Customizing the web console
+  File: customizing-the-web-console
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Developer perspective
+  File: odc-about-developer-perspective
+- Name: Disabling the web console
+  File: disabling-web-console
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin

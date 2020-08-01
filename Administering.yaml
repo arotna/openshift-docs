@@ -1,0 +1,8 @@
+Name: Administering a cluster
+Dir: administering_a_cluster
+Distros: openshift-dedicated
+Topics:
+- Name: The dedicated-admin role
+  File: dedicated-admin-role
+- Name: The cluster-admin role
+  File: cluster-admin-role

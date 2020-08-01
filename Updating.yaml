@@ -1,0 +1,18 @@
+Name: Updating clusters
+Dir: updating
+Distros: openshift-origin,openshift-enterprise,openshift-webscale
+Topics:
+- Name: Updating a cluster between minor versions
+  File: updating-cluster-between-minor
+- Name: Updating a cluster within a minor version from the web console
+  File: updating-cluster
+- Name: Updating a cluster within a minor version by using the CLI
+  File: updating-cluster-cli
+- Name: Updating a cluster that includes RHEL compute machines
+  File: updating-cluster-rhel-compute
+  Distros: openshift-enterprise,openshift-webscale
+- Name: Updating a restricted network cluster
+  File: updating-restricted-network-cluster
+  Distros: openshift-enterprise,openshift-webscale
+# - Name: Troubleshooting an update
+#  File: updating-troubleshooting

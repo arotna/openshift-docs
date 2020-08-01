@@ -1,0 +1,23 @@
+Name: Jaeger
+Dir: jaeger
+Distros: openshift-enterprise
+Topics:
+- Name: Jaeger release notes
+  File: rhbjaeger-release-notes
+- Name: Jaeger architecture
+  Dir: jaeger_arch
+  Topics:
+  - Name: Jaeger architecture
+    File: rhbjaeger-architecture
+- Name: Jaeger installation
+  Dir: jaeger_install
+  Topics:
+  - Name: Installing Jaeger
+    File: rhbjaeger-installation
+  - Name: Deploying Jaeger
+    File: rhbjaeger-deploying
+  - Name: Upgrading Jaeger
+    File: rhbjaeger-updating
+  - Name: Removing Jaeger
+    File: rhbjaeger-removing
+

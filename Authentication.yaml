@@ -1,0 +1,71 @@
+Name: Authentication and authorization
+Dir: authentication
+Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+Topics:
+- Name: Understanding authentication
+  File: understanding-authentication
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+- Name: Understanding identity provider configuration
+  File: dedicated-understanding-authentication
+  Distros: openshift-dedicated
+- Name: Configuring the internal OAuth server
+  File: configuring-internal-oauth
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Understanding identity provider configuration
+  File: understanding-identity-provider
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Configuring identity providers
+  Dir: identity_providers
+  Topics:
+  - Name: Configuring an HTPasswd identity provider
+    File: configuring-htpasswd-identity-provider
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring a Keystone identity provider
+    File: configuring-keystone-identity-provider
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring an LDAP identity provider
+    File: configuring-ldap-identity-provider
+  - Name: Configuring a basic authentication identity provider
+    File: configuring-basic-authentication-identity-provider
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring a request header identity provider
+    File: configuring-request-header-identity-provider
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring a GitHub or GitHub Enterprise identity provider
+    File: configuring-github-identity-provider
+  - Name: Configuring a GitLab identity provider
+    File: configuring-gitlab-identity-provider
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring a Google identity provider
+    File: configuring-google-identity-provider
+  - Name: Configuring an OpenID Connect identity provider
+    File: configuring-oidc-identity-provider
+- Name: Using RBAC to define and apply permissions
+  File: using-rbac
+- Name: Removing the kubeadmin user
+  File: remove-kubeadmin
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+#- Name: Configuring LDAP failover
+#  File: configuring-ldap-failover
+- Name: Configuring the user agent
+  File: configuring-user-agent
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Understanding and creating service accounts
+  File: understanding-and-creating-service-accounts
+- Name: Using service accounts in applications
+  File: using-service-accounts-in-applications
+- Name: Using a service account as an OAuth client
+  File: using-service-accounts-as-oauth-client
+- Name: Scoping tokens
+  File: tokens-scoping
+- Name: Using bound service account tokens
+  File: bound-service-account-tokens
+- Name: Managing Security Context Constraints
+  File: managing-security-context-constraints
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Impersonating the system:admin user
+  File: impersonating-system-admin
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Syncing LDAP groups
+  File: ldap-syncing
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated

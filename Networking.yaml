@@ -1,0 +1,157 @@
+Name: Networking
+Dir: networking
+Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+Topics:
+- Name: Understanding networking
+  File: understanding-networking
+- Name: Accessing hosts
+  File: accessing-hosts
+- Name: Understanding the Cluster Network Operator
+  File: cluster-network-operator
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Understanding the DNS Operator
+  File: dns-operator
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+- Name: Understanding the Ingress Operator
+  File: ingress-operator
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Using SCTP
+  File: using-sctp
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+#- Name: Configuring network policy
+#  File: configuring-networkpolicy
+- Name: Network policy
+  Dir: network_policy
+  Topics:
+  - Name: About network policy
+    File: about-network-policy
+  - Name: Creating a network policy
+    File: creating-network-policy
+  - Name: Viewing a network policy
+    File: viewing-network-policy
+  - Name: Editing a network policy
+    File: editing-network-policy
+  - Name: Deleting a network policy
+    File: deleting-network-policy
+  - Name: Defining a default network policy
+    File: default-network-policy
+  - Name: Configuring multitenant network policy
+    File: multitenant-network-policy
+- Name: Multiple networks
+  Dir: multiple_networks
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: Understanding multiple networks
+    File: understanding-multiple-networks
+  - Name: Attaching a Pod to an additional network
+    File: attaching-pod
+  - Name: Removing a Pod from an additional network
+    File: removing-pod
+  - Name: Configuring a bridge network
+    File: configuring-bridge
+  - Name: Configuring a host-device network
+    File: configuring-host-device
+  - Name: Configuring an ipvlan network
+    File: configuring-ipvlan
+  - Name: Configuring a macvlan network with basic customizations
+    File: configuring-macvlan-basic
+  - Name: Configuring a macvlan network
+    File: configuring-macvlan
+  - Name: Editing an additional network
+    File: edit-additional-network
+  - Name: Removing an additional network
+    File: remove-additional-network
+  - Name: Configuring PTP
+    File: configuring-ptp
+- Name: Hardware networks
+  Dir: hardware_networks
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: About Single Root I/O Virtualization (SR-IOV) hardware networks
+    File: about-sriov
+  - Name: Installing the SR-IOV Operator
+    File: installing-sriov-operator
+  - Name: Configuring the SR-IOV Operator
+    File: configuring-sriov-operator
+  - Name: Configuring an SR-IOV network device
+    File: configuring-sriov-device
+  - Name: Configuring an SR-IOV network attachment
+    File: configuring-sriov-net-attach
+  - Name: Adding Pod to an SR-IOV network
+    File: add-pod
+  - Name: Using high performance multicast
+    File: using-sriov-multicast
+  - Name: Using DPDK and RDMA
+    File: using-dpdk-and-rdma
+- Name: OpenShift SDN default CNI network provider
+  Dir: openshift_sdn
+  Topics:
+  - Name: About the OpenShift SDN default CNI network provider
+    File: about-openshift-sdn
+  - Name: Configuring egress IPs for a project
+    File: assigning-egress-ips
+    Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  - Name: Configuring an egress firewall for a project
+    File: configuring-egress-firewall
+  - Name: Editing an egress firewall for a project
+    File: editing-egress-firewall
+  - Name: Removing an egress firewall from a project
+    File: removing-egress-firewall
+  - Name: Enabling multicast for a project
+    File: enabling-multicast
+    Distros: openshift-origin,openshift-enterprise
+  - Name: Disabling multicast for a project
+    File: disabling-multicast
+    Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  - Name: Configuring multitenant isolation
+    File: multitenant-isolation
+    Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  - Name: Configuring kube-proxy
+    File: configuring-kube-proxy
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: OVN-Kubernetes default CNI network provider
+  Dir: ovn_kubernetes_network_provider
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  Topics:
+  - Name: About the OVN-Kubernetes network provider
+    File: about-ovn-kubernetes
+  - Name: Migrate from the OpenShift SDN default CNI network provider
+    File: migrate-from-openshift-sdn
+  - Name: Rollback to the OpenShift SDN default CNI network provider
+    File: rollback-to-openshift-sdn
+  - Name: Enabling multicast for a project
+    File: enabling-multicast
+  - Name: Disabling multicast for a project
+    File: disabling-multicast
+- Name: Configuring Routes
+  Dir: routes
+  Topics:
+  - Name: Route configuration
+    File: route-configuration
+  - Name: Secured routes
+    File: secured-routes
+- Name: Configuring ingress cluster traffic
+  Dir: configuring_ingress_cluster_traffic
+  Topics:
+  - Name: Overview
+    File: overview-traffic
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring ingress cluster traffic using an Ingress Controller
+    File: configuring-ingress-cluster-traffic-ingress-controller
+  - Name: Configuring ingress cluster traffic using a load balancer
+    File: configuring-ingress-cluster-traffic-load-balancer
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring ingress cluster traffic using a service external IP
+    File: configuring-ingress-cluster-traffic-service-external-ip
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring ingress cluster traffic using a NodePort
+    File: configuring-ingress-cluster-traffic-nodeport
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Configuring the cluster-wide proxy
+  File: enable-cluster-wide-proxy
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Configuring a custom PKI
+  File: configuring-a-custom-pki
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Load balancing on OpenStack
+  File: load-balancing-openstack

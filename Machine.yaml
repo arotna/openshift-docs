@@ -1,0 +1,34 @@
+Name: Machine management
+Dir: machine_management
+Distros: openshift-origin,openshift-enterprise,openshift-webscale
+Topics:
+- Name: Creating MachineSets
+  Dir: creating_machinesets
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  Topics:
+  - Name: Creating a MachineSet on AWS
+    File: creating-machineset-aws
+  - Name: Creating a MachineSet on Azure
+    File: creating-machineset-azure
+  - Name: Creating a MachineSet on GCP
+    File: creating-machineset-gcp
+  - Name: Creating a MachineSet on OpenStack
+    File: creating-machineset-osp
+- Name: Manually scaling a MachineSet
+  File: manually-scaling-machineset
+- Name: Modifying a MachineSet
+  File: modifying-machineset
+- Name: Deleting a Machine
+  File: deleting-machine
+- Name: Applying autoscaling to a cluster
+  File: applying-autoscaling
+- Name: Creating infrastructure MachineSets
+  File: creating-infrastructure-machinesets
+- Name: Adding a RHEL compute machine
+  File: adding-rhel-compute
+  Distros: openshift-enterprise,openshift-webscale
+- Name: Adding more RHEL compute machines
+  File: more-rhel-compute
+  Distros: openshift-enterprise,openshift-webscale
+- Name: Deploying machine health checks
+  File: deploying-machine-health-checks

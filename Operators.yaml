@@ -1,0 +1,93 @@
+Name: Operators
+Dir: operators
+Topics:
+- Name: Understanding Operators
+  File: olm-what-operators-are
+- Name: Common terms
+  File: olm-common-terms
+- Name: Packaging formats
+  File: olm-packaging-format
+- Name: Understanding Operator Lifecycle Manager (OLM)
+  Dir: understanding_olm
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: Concepts
+    File: olm-understanding-olm
+  - Name: Architecture
+    File: olm-arch
+  - Name: Workflow
+    File: olm-workflow
+  - Name: Dependency resolution
+    File: olm-understanding-dependency-resolution
+  - Name: OperatorGroups
+    File: olm-understanding-operatorgroups
+  - Name: Metrics
+    File: olm-understanding-metrics
+- Name: Understanding OperatorHub
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  File: olm-understanding-operatorhub
+- Name: Adding Operators to a cluster
+  File: olm-adding-operators-to-cluster
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+- Name: Configuring proxy support
+  File: olm-configuring-proxy-support
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Deleting Operators from a cluster
+  File: olm-deleting-operators-from-cluster
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+- Name: Creating applications from installed Operators
+  File: olm-creating-apps-from-installed-operators
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+- Name: Viewing Operator status
+  File: olm-status
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated
+- Name: Creating policy for Operator installations and upgrades
+  File: olm-creating-policy
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: Managing admission webhooks in OLM
+  File: olm-webhooks
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: Managing custom catalogs
+  File: olm-managing-custom-catalogs
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: Using OLM on restricted networks
+  File: olm-restricted-networks
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: CRDs
+  Dir: crds
+  Topics:
+  - Name: Extending the Kubernetes API with CRDs
+    File: crd-extending-api-with-crds
+    Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  - Name: Managing resources from CRDs
+    File: crd-managing-resources-from-crds
+    Distros: openshift-origin,openshift-enterprise,openshift-webscale
+- Name: Operator SDK
+  Dir: operator_sdk
+  Distros: openshift-origin,openshift-enterprise,openshift-webscale
+  Topics:
+  - Name: Getting started with the Operator SDK
+    File: osdk-getting-started
+  - Name: Creating Ansible-based Operators
+    File: osdk-ansible
+  - Name: Creating Helm-based Operators
+    File: osdk-helm
+  - Name: Generating a ClusterServiceVersion (CSV)
+    File: osdk-generating-csvs
+  - Name: Working with bundle images
+    File: osdk-working-bundle-images
+  - Name: Validating Operators using the scorecard
+    File: osdk-scorecard
+  - Name: Configuring built-in monitoring with Prometheus
+    File: osdk-monitoring-prometheus
+  - Name: Configuring leader election
+    File: osdk-leader-election
+  - Name: Operator SDK CLI reference
+    File: osdk-cli-reference
+  - Name: Migrating to Operator SDK v0.1.0
+    File: osdk-migrating-to-v0-1-0
+    Distros: openshift-origin
+  - Name: Appendices
+    File: osdk-appendices
+- Name: Red Hat Operators
+  File: operator-reference

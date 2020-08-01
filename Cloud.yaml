@@ -1,0 +1,16 @@
+Name: Cloud infrastructure access
+Dir: cloud_infrastructure_access
+Distros: openshift-dedicated
+Topics:
+- Name: Understanding cloud infrastructure access
+  File: dedicated-understanding-aws
+- Name: Accessing AWS infrastructure
+  File: dedicated-aws-access
+- Name: Configuring AWS VPC peering
+  File: dedicated-aws-peering
+- Name: Configuring AWS VPN
+  File: dedicated-aws-vpn
+- Name: Configuring AWS Direct Connect
+  File: dedicated-aws-dc
+- Name: Configuring a private cluster
+  File: dedicated-aws-private-cluster

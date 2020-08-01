@@ -1,0 +1,11 @@
+Name: Welcome
+Dir: welcome
+Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+Topics:
+- Name: Welcome
+  File: index
+- Name: About OpenShift Kubernetes Engine
+  File: oke_about
+  Distros: openshift-enterprise,openshift-webscale
+- Name: Legal notice
+  File: legal-notice

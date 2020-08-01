@@ -1,0 +1,128 @@
+Name: Nodes
+Dir: nodes
+Distros: openshift-*
+Topics:
+- Name: Working with pods
+  Dir: pods
+  Topics:
+  - Name: About Pods
+    File: nodes-pods-using
+  - Name: Viewing Pods
+    File: nodes-pods-viewing
+  - Name: Configuring a cluster for Pods
+    File: nodes-pods-configuring
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Automatically scaling pods with the Horizontal Pod Autoscaler
+    File: nodes-pods-autoscaling
+  - Name: Automatically adjust pod resource levels with the Vertical Pod Autoscaler
+    File: nodes-pods-vertical-autoscaler
+  - Name: Providing sensitive data to Pods
+    File: nodes-pods-secrets
+  - Name: Using Device Manager to make devices available to nodes
+    File: nodes-pods-plugins
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Including pod priority in Pod scheduling decisions
+    File: nodes-pods-priority
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Placing pods on specific nodes using node selectors
+    File: nodes-pods-node-selectors
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+- Name: Controlling pod placement onto nodes (scheduling)
+  Dir: scheduling
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: About pod placement using the scheduler
+    File: nodes-scheduler-about
+  - Name: Configuring the default scheduler to control pod placement
+    File: nodes-scheduler-default
+  - Name: Placing pods relative to other pods using pod affinity and anti-affinity rules
+    File: nodes-scheduler-pod-affinity
+  - Name: Controlling pod placement on nodes using node affinity rules
+    File: nodes-scheduler-node-affinity
+  - Name: Placing pods onto overcommited nodes
+    File: nodes-scheduler-overcommit
+  - Name: Controlling pod placement using node taints
+    File: nodes-scheduler-taints-tolerations
+  - Name: Placing pods on specific nodes using node selectors
+    File: nodes-scheduler-node-selectors
+# - Name: Placing a pod on a specific node by name
+#   File: nodes-scheduler-node-names
+# - Name: Placing a pod in a specific project
+#   File: nodes-scheduler-node-projects
+# - Name: Keeping your cluster balanced using the descheduler
+#   File: nodes-scheduler-descheduler
+  - Name: Evicting pods using the descheduler
+    File: nodes-descheduler
+- Name: Using Jobs and DaemonSets
+  Dir: jobs
+  Topics:
+  - Name: Running background tasks on nodes automatically with daemonsets
+    File: nodes-pods-daemonsets
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Running tasks in pods using jobs
+    File: nodes-nodes-jobs
+- Name: Working with nodes
+  Dir: nodes
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  Topics:
+  - Name: Viewing and listing the nodes in your cluster
+    File: nodes-nodes-viewing
+  - Name: Working with nodes
+    File: nodes-nodes-working
+  - Name: Managing Nodes
+    File: nodes-nodes-managing
+  - Name: Managing the maximum number of Pods per Node
+    File: nodes-nodes-managing-max-pods
+  - Name: Using the Node Tuning Operator
+    File: nodes-node-tuning-operator
+  - Name: Understanding node rebooting
+    File: nodes-nodes-rebooting
+  - Name: Freeing node resources using garbage collection
+    File: nodes-nodes-garbage-collection
+  - Name: Allocating resources for nodes
+    File: nodes-nodes-resources-configuring
+#  - Name: Monitoring for problems in your nodes
+#    File: nodes-nodes-problem-detector
+  - Name: Viewing node audit logs
+    File: nodes-nodes-audit-log
+  - Name: Machine Config Daemon metrics
+    File: nodes-nodes-machine-config-daemon-metrics
+- Name: Working with containers
+  Dir: containers
+  Topics:
+  - Name: Using containers
+    File: nodes-containers-using
+  - Name: Using Init Containers to perform tasks before a pod is deployed
+    File: nodes-containers-init
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Using volumes to persist container data
+    File: nodes-containers-volumes
+  - Name: Mapping volumes using projected volumes
+    File: nodes-containers-projected-volumes
+  - Name: Allowing containers to consume API objects
+    File: nodes-containers-downward-api
+  - Name: Copying files to or from a container
+    File: nodes-containers-copying-files
+  - Name: Executing remote commands in a container
+    File: nodes-containers-remote-commands
+  - Name: Using port forwarding to access applications in a container
+    File: nodes-containers-port-forwarding
+  - Name: Using sysctls in containers
+    File: nodes-containers-sysctls
+- Name: Working with clusters
+  Dir: clusters
+  Topics:
+  - Name: Viewing system event information in a cluster
+    File: nodes-containers-events
+  - Name: Analyzing cluster resource levels
+    File: nodes-cluster-resource-levels
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring cluster memory to meet container memory and risk requirements
+    File: nodes-cluster-resource-configure
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Configuring your cluster to place pods on overcommited nodes
+    File: nodes-cluster-overcommit
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  - Name: Enabling features using FeatureGates
+    File: nodes-cluster-enabling-features
+    Distros: openshift-enterprise,openshift-webscale,openshift-origin

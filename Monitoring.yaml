@@ -1,0 +1,21 @@
+Name: Monitoring
+Dir: monitoring
+Distros: openshift-enterprise,openshift-webscale,openshift-origin
+Topics:
+- Name: Cluster monitoring
+  Dir: cluster_monitoring
+  Topics:
+  - Name: About cluster monitoring
+    File: about-cluster-monitoring
+  - Name: Configuring the monitoring stack
+    File: configuring-the-monitoring-stack
+  - Name: Managing cluster alerts
+    File: managing-cluster-alerts
+  - Name: Examining cluster metrics
+    File: examining-cluster-metrics
+  - Name: Accessing Prometheus, Alertmanager, and Grafana
+    File: prometheus-alertmanager-and-grafana
+- Name: Monitoring your own services
+  File: monitoring-your-own-services
+- Name: Exposing custom application metrics for autoscaling
+  File: exposing-custom-application-metrics-for-autoscaling

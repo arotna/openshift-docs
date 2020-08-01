@@ -1,0 +1,26 @@
+Name: Architecture
+Dir: architecture
+Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+Topics:
+- Name: Product architecture
+  File: architecture
+- Name: Installation and update
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin
+  File: architecture-installation
+- Name: The control plane
+  File: control-plane
+  Distros: openshift-enterprise,openshift-webscale,openshift-origin,openshift-dedicated,openshift-online
+- Name: Understanding OpenShift development
+  File: understanding-development
+- Name: Fedora CoreOS
+  File: architecture-rhcos
+  Distros: openshift-origin
+- Name: Red Hat Enterprise Linux CoreOS
+  File: architecture-rhcos
+  Distros: openshift-enterprise,openshift-webscale
+- Name: The CI/CD methodology and practice
+  File: cicd_gitops
+  Distros: openshift-enterprise,openshift-webscale
+- Name: Admission plug-ins
+  File: admission-plug-ins
+  Distros: openshift-enterprise,openshift-webscale,openshift-aro
